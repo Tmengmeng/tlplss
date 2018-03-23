@@ -1,6 +1,6 @@
 <?php
 $systemconfig = require 'config.inc.php';
-//test
+
 $myconfig= array(
 	
 	/************************* 数据库设置 *************************/
