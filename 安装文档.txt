@@ -5,3 +5,4 @@
 5、邮箱配置在Index/Conf/config.php 里配置邮箱
 6、邮箱模板及其逻辑在Index/Lib/Action/RegisterAction.class.php 里
 7、网银在线支付在Public/chinabank
+test
