@@ -340,7 +340,7 @@
 					<div class="contact-info">
 						<i class="iconfont-headphones round-icon"></i>
 						<strong><?php echo ($head["cellphone"]); ?></strong>
-						<span>(营业时间：09:00 - 22:00)</span>
+						<span>(毕业设计)</span>
 					</div>
 					<!-- // CONTACT INFO 联系信息 -->
 				</div>
@@ -586,19 +586,19 @@
 													<div class="col-md-2">
 														<select class="form-control select" name="year">
 															<option>--请选择--</option>
-															<?php $__FOR_START_2611__=1938;$__FOR_END_2611__=2014;for($i=$__FOR_START_2611__;$i < $__FOR_END_2611__;$i+=1){ ?><option value="<?php echo ($i); ?>" <?php if($data['bir'][0] == $i): ?>selected<?php endif; ?>><?php echo ($i); ?></option><?php } ?>
+															<?php $__FOR_START_17360__=1938;$__FOR_END_17360__=2014;for($i=$__FOR_START_17360__;$i < $__FOR_END_17360__;$i+=1){ ?><option value="<?php echo ($i); ?>" <?php if($data['bir'][0] == $i): ?>selected<?php endif; ?>><?php echo ($i); ?></option><?php } ?>
 														</select>
 													</div>
 													<div class="col-md-2">
 														<select class="form-control select" name="month">
 															<option>--请选择--</option>
-															<?php $__FOR_START_4592__=1;$__FOR_END_4592__=13;for($i=$__FOR_START_4592__;$i < $__FOR_END_4592__;$i+=1){ ?><option value="<?php echo ($i); ?>" <?php if($data['bir'][1] == $i): ?>selected<?php endif; ?>><?php echo ($i); ?></option><?php } ?>
+															<?php $__FOR_START_28617__=1;$__FOR_END_28617__=13;for($i=$__FOR_START_28617__;$i < $__FOR_END_28617__;$i+=1){ ?><option value="<?php echo ($i); ?>" <?php if($data['bir'][1] == $i): ?>selected<?php endif; ?>><?php echo ($i); ?></option><?php } ?>
 														</select>
 													</div>
 													<div class="col-md-2">
 														<select class="form-control select" name="day">
 															<option>--请选择--</option>
-															<?php $__FOR_START_29545__=1;$__FOR_END_29545__=31;for($i=$__FOR_START_29545__;$i < $__FOR_END_29545__;$i+=1){ ?><option value="<?php echo ($i); ?>" <?php if($data['bir'][2] == $i): ?>selected<?php endif; ?>><?php echo ($i); ?></option><?php } ?>
+															<?php $__FOR_START_1742__=1;$__FOR_END_1742__=31;for($i=$__FOR_START_1742__;$i < $__FOR_END_1742__;$i+=1){ ?><option value="<?php echo ($i); ?>" <?php if($data['bir'][2] == $i): ?>selected<?php endif; ?>><?php echo ($i); ?></option><?php } ?>
 														</select>
 													</div>
 												</div>
@@ -1185,7 +1185,7 @@
 					</div>
 					<div class="space10"></div> -->
 					<div class="copyright center-xs">
-						<p>© 2013-2014 意象图文 All rights reserved.</p>
+						<p>© 2017-2018 谭丽萍和李思思的毕业设计</p>
 					</div>
 				</div>
 				

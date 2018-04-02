@@ -20,11 +20,6 @@ class RegisterAction extends Action{
 			
 			$user = M('user');
 			$info = M('userinfo');
-
-			// $uname = $user->where(array('username'=>$_POST['username']))->field('username')->find(); // 查询用户名是否被注册
-			// $uemail = $user->where(array('email'=>$_POST['email']))->field('email')->find(); // 查询邮箱是否被注册
-			// if(empty($uname) && empty($uemail)){
-
 				$_POST['userpwd'] = md5($_POST['userpwd']);
 				$_POST['ustatus'] = 2;
 				$_POST['regtime'] = time();

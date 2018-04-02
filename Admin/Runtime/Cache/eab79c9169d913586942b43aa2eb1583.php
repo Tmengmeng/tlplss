@@ -232,7 +232,7 @@
 											<select name="classid" style="width:200px;">
                                             <option value="0" >顶级分类</option>
 					     				 	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>" <?php echo ($vo['id'] == $data['classid'] ? 'selected' : ''); ?> >
-						                		<?php $__FOR_START_7657__=1;$__FOR_END_7657__=$vo["num"];for($i=$__FOR_START_7657__;$i < $__FOR_END_7657__;$i+=1){ ?><span style="color: #cdcdcd;">|-----&nbsp;</span><?php } echo ($vo["cname"]); ?>
+						                		<?php $__FOR_START_7893__=1;$__FOR_END_7893__=$vo["num"];for($i=$__FOR_START_7893__;$i < $__FOR_END_7893__;$i+=1){ ?><span style="color: #cdcdcd;">|-----&nbsp;</span><?php } echo ($vo["cname"]); ?>
 						                	</option><?php endforeach; endif; else: echo "" ;endif; ?>
     									</select>
 									</div>

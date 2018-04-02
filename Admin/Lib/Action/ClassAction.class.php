@@ -1,8 +1,8 @@
 <?php
-
-/ *  类名:ClassAction 后台分类分类信息控制类
- *  功能:实现后台对分类分类数据的显示,增删改查等操作
- */
+ /**
+  * 类名:ClassAction 后台分类分类信息控制类
+  * 功能:实现后台对分类分类数据的显示,增删改查等操作
+  */
 
 class ClassAction extends Action{
 	

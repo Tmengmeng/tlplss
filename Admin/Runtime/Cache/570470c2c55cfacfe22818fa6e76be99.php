@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Unicorn Admin</title>
+		<title>后台 Admin</title>
 		<meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="__PUBLIC__/admin/css/bootstrap.min.css" />
@@ -165,7 +165,7 @@
 										<select name="sid">
                                         	<option value="0">顶级分类</option>
 	                                        <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>" <?php echo ($vo['id'] == $data['sid'] ? 'selected' : ''); ?> >
-						                		<?php $__FOR_START_32236__=1;$__FOR_END_32236__=$vo["num"];for($i=$__FOR_START_32236__;$i < $__FOR_END_32236__;$i+=1){ ?><span style="color: #cdcdcd;">|-----&nbsp;</span><?php } echo ($vo["cname"]); ?>
+						                		<?php $__FOR_START_15088__=1;$__FOR_END_15088__=$vo["num"];for($i=$__FOR_START_15088__;$i < $__FOR_END_15088__;$i+=1){ ?><span style="color: #cdcdcd;">|-----&nbsp;</span><?php } echo ($vo["cname"]); ?>
 						                	</option><?php endforeach; endif; else: echo "" ;endif; ?>
     									</select>
 									</div>
@@ -225,7 +225,7 @@
             <!-- 页面底部版权 -->
 			<div class="row-fluid">
 				<div id="footer" class="span12">
-					Copyright &copy; 2014 <span class="label label-important">四重奏项目组</span> All Rights Reserved. 
+					Copyright &copy; 2014 <span class="label label-important">意象图文</span> All Rights Reserved. 
 				</div>
 			</div>
 		</div>

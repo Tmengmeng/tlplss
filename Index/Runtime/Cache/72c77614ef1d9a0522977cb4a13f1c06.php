@@ -311,7 +311,7 @@
 					<div class="contact-info">
 						<i class="iconfont-headphones round-icon"></i>
 						<strong><?php echo ($head["cellphone"]); ?></strong>
-						<span>(营业时间：09:00 - 22:00)</span>
+						<span>(毕业设计)</span>
 					</div>
 					<!-- // CONTACT INFO 联系信息 -->
 				</div>
@@ -1032,7 +1032,7 @@
 					</div>
 					<div class="space10"></div> -->
 					<div class="copyright center-xs">
-						<p>© 2013-2014 意象图文 All rights reserved.</p>
+						<p>© 2017-2018 谭丽萍和李思思的毕业设计</p>
 					</div>
 				</div>
 				

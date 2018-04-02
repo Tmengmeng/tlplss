@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Unicorn Admin</title>
+		<title>后台 Admin</title>
 		<meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="__PUBLIC__/admin/css/bootstrap.min.css" />
@@ -208,7 +208,7 @@
             <!-- 页面底部版权 -->
 			<div class="row-fluid">
 				<div id="footer" class="span12">
-					Copyright &copy; 2014 <span class="label label-important">四重奏项目组</span> All Rights Reserved. 
+					Copyright &copy; 2014 <span class="label label-important">意象图文</span> All Rights Reserved. 
 				</div>
 			</div>
 		</div>
